@@ -37,6 +37,6 @@ To start using this extension with VS Code, copy it into the `<user home>/.vscod
 
 To share this extension with the world, read on about https://code.visualstudio.com/api/working-with-extensions/publishing-extension[publishing an extension].
 
-== License
+== link:LICENSE[License]
 
 _vscode-shards-syntax_ source code is licensed under the link:./LICENSE[BSD 3-Clause license].
