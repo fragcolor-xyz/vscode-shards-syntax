@@ -21,7 +21,7 @@ This folder contains all of the files necessary for your extension:
 == Making changes
 
 When making changes to `shards.tmLanguage.edn`, generate `shards.tmLanguage.json` using a tool like link:https://github.com/borkdude/jet[jet], here as:
-```sh
+```bash
 cat shards.tmLanguage.edn |jet --to=json > shards.tmLanguage.json
 ```
 
