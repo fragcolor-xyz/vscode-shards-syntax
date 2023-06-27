@@ -40,7 +40,8 @@ seq1:1 | Assert.Is(2)
 
 ; we got also some built ins, prefixed by @
 ; to create a wire:
-@wire(my-wire {
+
+@wire.2-_(my-wire {
   Math.Add(22) | Log("From within the wire")
 })
 1 | Do(my-wire) | Assert.Is(23)

@@ -14,8 +14,6 @@
   }, {
     "include" : "#variables"
   }, {
-    "include" : "#keywords"
-  }, {
     "include" : "#strings"
   } ],
   "repository" : {
@@ -33,7 +31,7 @@
     },
     "shards" : {
       "name" : "entity.name.type.class",
-      "match" : "[A-Z@][a-zA-Z0-9]*\\.?[a-zA-Z0-9]*"
+      "match" : "(@[a-z]|[A-Z])[a-zA-Z0-9_.-]*"
     },
     "literals" : {
       "patterns" : [ {
@@ -48,12 +46,8 @@
       } ]
     },
     "variables" : {
-      "match" : "\\b([a-z][a-zA-Z0-9_-]*)\\b",
-      "captures" : {
-        "1" : {
-          "name" : "variable.other.readwrite.shards"
-        }
-      }
+      "name" : "variable.other.readwrite.shards",
+      "match" : "[a-z_][a-zA-Z0-9_-]*"
     },
     "strings" : {
       "patterns" : [ {
