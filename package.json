@@ -25,6 +25,11 @@
       "extensions": [".shs"],
       "configuration": "./language-configuration.json"
     }],
+    "configurationDefaults": {
+      "[shards]": {
+          "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+      }
+    },
     "grammars": [{
       "language": "shards",
       "scopeName": "source.shards",

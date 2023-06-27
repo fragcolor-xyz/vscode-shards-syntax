@@ -2,7 +2,6 @@
  :name "shards"
  :patterns [{:include "#comments"}
             {:include "#commas"}
-            ;{:include "#unquoted_table_labels"}
             {:include "#assignments"}
             {:include "#shards"}
             {:include "#literals"}
@@ -13,9 +12,6 @@
                          :match ";.*"}
               :commas {:name "punctuation.separator.comma.shards"
                        :match ","}
-              ;:unquoted_table_labels {:name "string.unquoted.label.shards"
-              ;                        :match "([,{]\\s*)([_$a-zA-Z\\xA0-\\uFFFF][_$a-zA-Z0-9\\xA0-\\uFFFF]*|[0-9]+)(?=\\s*:)"
-              ;                        :captures {"2" {:name "string.unquoted.label.js"}}}
               :assignments {:name "keyword.operator.assignment.shards"
                             :match "=|>|>=|>>|>>=|>>!"}
               :shards {:name "entity.name.type.class"
@@ -26,8 +22,8 @@
                                      :match "\\b(0x[a-fA-F0-9]+|\\d+)\\b"}
                                     {:name "constant.language.null.shards"
                                      :match "\\b(none)\\b"}]}
-              :variables {:name "variable.other.readwrite.shards"
-                          :match "\\b([a-z][a-zA-Z0-9_-]*)\\b"}
+              :variables {:match "\\b([a-z][a-zA-Z0-9_-]*)\\b"
+                          :captures {1 {:name "variable.other.readwrite.shards"}}}
               :strings {:patterns [{:name "string.quoted.double.shards"
                                     :begin "\""
                                     :end "\""
