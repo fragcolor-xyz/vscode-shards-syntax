@@ -4,6 +4,14 @@ image:https://img.shields.io/badge/license-BSD%203--Clause-blue.svg[License: BSD
 
 Syntax highlighting for https://github.com/fragcolor-xyz/shards[Shards] in VS Code.
 
+== Install
+
+Grab it from the link:https://marketplace.visualstudio.com/items?itemName=fragcolor.shards-syntax[VS Code Marketplace], or issue the command:
+```
+code --install-extension fragcolor.shards-syntax
+```
+You could also copy this repo to `<user home>/.vscode/extensions` folder and restart VS Code.
+
 == What's in the folder
 
 This folder contains all of the files necessary for your extension:
@@ -31,9 +39,7 @@ Reload (`Ctrl+R` or `Cmd+R` on Mac) the VS Code window with your extension to lo
 
 In VS Code command palette, run `Developer: Inspect Editor Tokens and Scopes` to inspect the tokens and scopes of the current cursor position.
 
-== Install this extension
-
-To start using this extension with VS Code, copy it into the `<user home>/.vscode/extensions` folder and restart VS Code.
+== Publish this extension
 
 To share this extension with the world, read on about https://code.visualstudio.com/api/working-with-extensions/publishing-extension[publishing an extension].
 
