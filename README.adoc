@@ -1,6 +1,8 @@
 = vscode-shards-syntax
 
-Syntax highlight for https://github.com/fragcolor-xyz/shards[Shards] in VS Code.
+image:https://img.shields.io/badge/license-BSD%203--Clause-blue.svg[License: BSD 3-Clause, link=LICENSE]
+
+Syntax highlighting for https://github.com/fragcolor-xyz/shards[Shards] in VS Code.
 
 == What's in the folder
 

@@ -1,7 +1,7 @@
 {
   "name": "shards-syntax",
   "displayName": "Shards Syntax Highlighter",
-  "description": "Syntax highlight for Shards in VS Code",
+  "description": "Syntax highlighting for Shards in VS Code",
   "author": "Fragcolor and contributors",
   "url": "https://github.com/fragcolor-xyz/vscode-shards-syntax",
   "license": "BSD-3-Clause",
