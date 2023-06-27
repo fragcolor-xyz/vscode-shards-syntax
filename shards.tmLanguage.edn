@@ -27,7 +27,7 @@
                                     {:name "constant.language.null.shards"
                                      :match "\\b(none)\\b"}]}
               :variables {:name "variable.other.readwrite.shards"
-                          :match "\\b[a-z][a-zA-Z0-9_-]*\\b"}
+                          :match "\\b([a-z][a-zA-Z0-9_-]*)\\b"}
               :strings {:patterns [{:name "string.quoted.double.shards"
                                     :begin "\""
                                     :end "\""
