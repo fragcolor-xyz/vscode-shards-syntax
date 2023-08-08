@@ -39,6 +39,8 @@ In VS Code command palette, run `Developer: Inspect Editor Tokens and Scopes` to
 
 == Publish this extension ==
 
+Bump the `version` number in `package.json` before publishing this extension.
+
 To share this extension with the world, read on about https://code.visualstudio.com/api/working-with-extensions/publishing-extension[publishing an extension].
 
 == link:LICENSE[License] ==

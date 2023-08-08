@@ -61,3 +61,13 @@ Math.Add(My_explicit-namespaced.parameter2: 2)
 
 ; a function name with forward slash separator in the name
 @rare/has-tags("transparent" tags)
+
+; Shards beginning with _ for typical use in rare
+_Rare.DomainOpen
+; invalid variant from above
+_rare.DomainOpen
+
+foo("bar") | spam("eggs")
+foo("""bar""") | spam("""eggs""")
+""eggs"" ;; error: bad double quote matching
+""""eggs""" ;; error: bad double quote matching
