@@ -15,8 +15,9 @@ one
 ; boolean values are traditional
 true | false
 
-; we also have
+; we also have following values for None
 none
+null
 
 ; passthrough sub expressions can be written wrapping shards in a shards sequence
 1 | Math.Add(1) {Math.Add(2) | Assert.Is(4)} | Assert.Is(2)

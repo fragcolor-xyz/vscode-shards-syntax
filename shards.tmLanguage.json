@@ -34,7 +34,7 @@
         "match" : "\\b(0x[a-fA-F0-9]+|\\d+)\\b"
       }, {
         "name" : "constant.language.null.shards",
-        "match" : "\\b(none)\\b"
+        "match" : "\\b(none|null)\\b"
       } ]
     },
     "strings" : {
